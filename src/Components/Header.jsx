@@ -6,7 +6,6 @@ import allProductsData from '../data/Data'
 function Header({ cartProducts }) {
     let products = cartProducts.length
 
-
     function themeChanger(e) {
         document.querySelector("body").classList.toggle("light")
         let label = e.target.nextElementSibling
